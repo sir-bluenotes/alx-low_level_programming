@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*This function is the entry point of the program. It takes no arguments
-and returns an integer status code */
-/* betty style doc for function main goes there */
+*This function is the entry point of the program
+*It takes no arguments and returns an integer status code
+*betty style doc for function main goes there
+*/
 int main(void)
 {
 int n;
