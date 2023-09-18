@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <stdio.h>
 
+void puts2(char *str);
 void _puts(char *str);
 void swap_int(int *a, int *b);
 void reset_to_98(int *n);
