@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*_puts - functio puts a string 
-*
+*_puts - functio puts a string
+*@str: string to print
 *Return: void
 */
 void _puts(char *str)
