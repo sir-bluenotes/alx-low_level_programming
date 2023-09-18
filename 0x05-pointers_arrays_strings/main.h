@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <stdio.h>
 
+void puts_half(char *str);
 void puts2(char *str);
 void _puts(char *str);
 void swap_int(int *a, int *b);
