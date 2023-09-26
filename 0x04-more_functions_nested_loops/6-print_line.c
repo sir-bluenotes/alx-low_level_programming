@@ -3,19 +3,18 @@
 
 /**
 *print_line - function that prints a line
-*
+*@n: function parameter
 *Return: void
 */
 void print_line(int n)
 {
-	int n;
+	int j;
 
-	for (n = 0 ; n <= 15 ; n++)
-	{
-		if (i < 16)
-			_putchar('_');
-		else if (i <= 0)
-			_putchar('\\n');
-	}
-	_putchar('\n')
+	for (j = 1 ; j <= n ; j++)
+
+		_putchar('_');
+	if (n <= 0)
+		_putchar('\n');
+	
+	_putchar('\n');
 }
